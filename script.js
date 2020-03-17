@@ -11,3 +11,9 @@ upBtn.onclick = function() {
   circle.style.transform = rotateSum;
   rotateValue = rotateSum;
 };
+
+downBtn.onclick = function() {
+  rotateSum = `${rotateValue}rotate(90deg)`;
+  circle.style.transform = rotateSum;
+  rotateValue = rotateSum;
+};
